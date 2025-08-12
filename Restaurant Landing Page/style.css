@@ -1,0 +1,78 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+nav{
+    background-color: blueviolet;
+    text-align: right;
+    padding-bottom: 1.5em;
+    padding-top: 2.4em;
+    padding-right: 7em;
+    font-size: 1.5em;
+}
+
+nav a{
+    color: white;
+    display: inline-block;
+    width: 7rem;
+}
+
+.heroPage{
+    background-color: black;
+    background-position: center;
+  height: 15rem;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+}
+.heroPage img{
+    height: 15em;
+}
+
+.heroTry{
+    position: absolute;
+    color: white;
+    font-size: 2em;
+    padding-left: 8em;
+    padding-top: 3.7em;
+}
+
+.Menu{
+    padding-top: 35em;
+    padding-bottom: 30em;
+    display: block;
+    text-align: center;
+}
+
+
+.Menu h3 {
+    display: inline-flex;
+    width: 6em;
+    padding-top: 19px;
+}
+
+
+
+.About{
+    padding-top: 400px;
+    padding-bottom: 240px; 
+    display: block;
+    text-align: center;
+}
+
+.About img{
+    padding-top: 20px;
+    height: 15em;
+}
+
+.Contact{
+    padding-bottom: 400px;
+}
+
+footer{
+    padding-bottom: 200px;
+}
