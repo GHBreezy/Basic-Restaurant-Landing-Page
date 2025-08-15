@@ -1,5 +1,6 @@
 body {
-    margin: 0em;
+    margin: 0;
+    padding: 0;
 }
 
 nav{
@@ -28,6 +29,7 @@ nav a{
   background-size: cover;
   position: relative;
 }
+
 /*
 .heroPage{
     background-color: rgb(255, 123, 0);
@@ -45,10 +47,17 @@ nav a{
 .heroPage img{
     padding-top: 20em;
     height: 50em;
-    filter: brightness(0.6);
+    filter: brightness(0.4);
     position: absolute;
+    background-size: cover;
 }
 
+.heroPage h1 {
+    color: white;
+    position: absolute;
+    padding-left: 4.5em;
+    font-size: 4em;
+}
 
 
 /*
