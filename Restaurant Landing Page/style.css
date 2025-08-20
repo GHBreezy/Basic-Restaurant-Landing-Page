@@ -1,16 +1,15 @@
-body {
+*{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
 
 nav{
     background-color: white;
     text-align: right;
-    padding-bottom: 1.5em;
-    padding-top: 2.4em;
-    padding-right: 7em;
+    padding: 2.4em 7em 1.5em 0em;
     font-size: 1.5em;
-    position: relative
 }
 
 nav a{
@@ -19,15 +18,8 @@ nav a{
 }
 
 .heroPage{
-    background-position: center;
-  height: 25rem;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  text-align: center;
-  background-size: cover;
-  position: relative;
+  width: 100%;
+  margin: 0em 0em 2.5em 0em;
 }
 
 /*
@@ -44,19 +36,19 @@ nav a{
 }
  */
 
-.heroPage img{
-    padding-top: 20em;
-    height: 50em;
+.pizzaImg{
+    height: 80em;
+    width: 100%;
     filter: brightness(0.4);
     position: absolute;
-    background-size: cover;
 }
 
-.heroPage h1 {
+h1 {
     color: white;
-    position: absolute;
-    padding-left: 4.5em;
+    position: relative;
     font-size: 4em;
+    text-align: center;
+    
 }
 
 
@@ -72,12 +64,16 @@ nav a{
 */
 
 .Menu{
-    padding-top: 35em;
-    padding-bottom: 30em;
+    padding: 60em 0em 30em 0em;
     display: block;
     text-align: center;
 }
 
+h2 {
+     border: 1px dotted red;
+     width: 4em;
+     margin: 0 auto;
+}
 
 .Menu h3 {
     display: inline-flex;
@@ -87,20 +83,32 @@ nav a{
 
 
 
+
+
+
+.leoImg{
+    height: 14em;
+    margin-top: 2em;
+    position: relative;
+}
+
+
+.hungry{
+margin: 0 auto;
+position: absolute;
+}
+
 .About{
-    padding-top:  10em;
-    padding-bottom: 14em; 
-    display: block;
     text-align: center;
 }
 
-.About img{
-    padding-top: 2em;
-    height: 15em;
-}
+
+
+
 
 .Contact{
-    padding-bottom: 4em;
+    margin: 40em 0em 10em 0em;
+    text-align: center;
 }
 
 footer{
