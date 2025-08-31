@@ -65,58 +65,141 @@ nav, a{
 }
 */
 
-.Menu{
-    margin: 10em 0em 30em 0em;
-    position: relative;
-    text-align: center;
-    
-}
-
 
 h2 {
      border: 1px dotted red;
      width: 4em;
      margin: 0 auto;
+     z-index: -1;
 }
 
-.Menu, h3 {
-    display: inline-flex;
-    width: 6em;
-    padding-top: 1em;
+
+
+
+
+
+
+
+.Menu{
+    margin: 15em 0em 0em 0em;
+    text-align: center;
     
 }
 
+.menuContainer{
+    text-align: center;
+    margin: 1em 0em 40em 0em;
+    display: flex;
+    justify-content: space-around;
+}
 
-
-
-
-
-.leoImg{
-    height: 14em;
-    margin-top: 2em;
-    position: relative;
-    z-index: -1;
+.menuItems {
+    width: 20em;
+    background-color: aquamarine;
 }
 
 
-.hungry{
-margin: 0 auto;
-position: absolute;
+
+
+
+
+
+
+
+
+
+
+
+
+.aboutContainer{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 
 .About{
     text-align: center;
 }
 
+.leoImg {
+    width: 30em;
+    background-image: url("./daVinci.png");
+    background-repeat: no-repeat;
+    margin-top: 2em;
+    padding-bottom: 30em;
+    z-index: -1;
+}
 
 
 
+
+
+
+
+
+
+.customerReviews{
+    margin: 20em 0em 0em 0em;
+}
+
+.customerReviewsContainer{
+    margin: 1em 0em 12em 0em;
+    display: grid;
+    justify-content: center;
+    
+}
+
+.customerReviewGrid{
+  display: grid;
+  grid-template: repeat(3, 20em) / 22em minmax(12em, 30em) 22em;
+  margin: 1em;
+  gap: 1em;
+  text-align: center;
+  grid-auto-rows: 20em;
+  grid-auto-flow: row;
+
+  
+}
+
+
+
+.box {
+  background-color: beige;
+  color: black;
+  border-radius: 5px;
+  border: 2px dodgerblue solid;
+}
+
+
+
+
+
+
+.allSocialsInfo {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 40em;
+}
 
 .Contact{
-    margin: 40em 0em 10em 0em;
     text-align: center;
+}
+
+
+
+.socialsInfo{
+    display: inline-block;
+    height: 100%;
+    width: 10em;
 }
 
 footer{
     padding-bottom: 20em;
+}
+
+
+
+#wrap{
+    flex-wrap: wrap;
 }
